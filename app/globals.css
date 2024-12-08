@@ -49,3 +49,15 @@
   bottom: 0;
   width: 6.7rem;
 }
+.insta-section{
+  position: relative;
+}
+.insta-section::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  opacity: .6;
+  background: rgb(255, 255, 255);
+  height: 50vh;
+  width: 100%;
+}

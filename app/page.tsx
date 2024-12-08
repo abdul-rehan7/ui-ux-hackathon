@@ -4,6 +4,8 @@ import Hero from "./components/Hero";
 import TopPicks from "./components/TopPicks";
 import NewArrivals from "./components/NewArrivals";
 import OurBlogs from "./components/OurBlogs";
+import OurInsta from "./components/OurInsta";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -35,6 +37,10 @@ export default function Home() {
       <NewArrivals/>
       {/* ---------- BLOGS SECTION -------------- */}
       <OurBlogs/>
+      {/* ---------- INSTAGRAM SECTION -------------- */}
+      <OurInsta/>
+      {/* ---------- Footer SECTION -------------- */}
+      <Footer/>
     </>
   );
 }
