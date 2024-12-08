@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="flex justify-around gap-5 w-full p-8">
-      <div className="bg-red-400 flex justify-center items-center p-4">
+    <div className="flex text-sm justify-around gap-5 w-full p-7">
+      <div className="text-gray-400 flex justify-center items-center p-4">
         400 University Drive Suite 200 Coral <br /> Gables, <br />
         FL 33134 USA
       </div>
@@ -23,9 +23,16 @@ export default function Footer() {
       </div>
       <div className="flex flex-col space-y-4">
         <h1 className="text-gray-400">NewsLetter</h1>
-     <input type="search" value="" />
+        <div className="flex space-x-2 items-center">
+
+        <input
+          className="border-b-2 p-2 border-black"
+          type="search"
+          value="Enter Your Email Address"
+        />
+        <span className="border-b-2 border-black font-semibold p-2">SUBSCRIBE</span>
+        </div>
       </div>
- 
     </div>
   );
 }
