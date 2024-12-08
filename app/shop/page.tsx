@@ -1,7 +1,6 @@
 import React from "react";
 import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
 import ShopContent from "../components/ShopContent";
-import Footer from "../components/Footer";
 
 export default function page() {
   return (
@@ -87,7 +86,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <Footer />
+ 
     </div>
   );
 }

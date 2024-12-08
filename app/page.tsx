@@ -1,5 +1,4 @@
 
-import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TopPicks from "./components/TopPicks";
 import NewArrivals from "./components/NewArrivals";
@@ -11,7 +10,7 @@ export default function Home() {
   return (
     <>
       <div className="hero h-auto bg-[var(--primary)]">
-        <Navbar />
+     
         <Hero />
       </div>
       {/* ---------- TABLE SECTION -------------- */}

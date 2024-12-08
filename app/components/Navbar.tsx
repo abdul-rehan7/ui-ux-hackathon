@@ -6,9 +6,9 @@ import { CiSearch } from "react-icons/ci";
 import { FaRegUser } from "react-icons/fa6";
 export default function Navbar() {
   return (
-    <div className='p-2 flex justify-center'>
+    <div className='p-2 bg-[var(--primary)] flex justify-center'>
 
-    <div className='bg-[var(--primary)] w-[95%] flex justify-end gap-[10rem]  p-4'>
+    <div className='bg-transparent w-[95%] flex justify-end gap-[10rem]  p-4'>
       <div className="first poppins-regular flex space-x-12">
         <Link href={'/'}>Home</Link>
         <Link href={'/shop'}>Shop</Link>
