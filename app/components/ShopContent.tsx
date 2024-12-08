@@ -86,7 +86,7 @@ export default function ShopContent() {
   return (
     <div className="p-4 px-14 grid gap-4 grid-cols-4">
       {data.map((item) => (
-        <div className="card h-[40vh] p-2 justify-evenly flex space-y-2 flex-col text-left">
+        <div key={item.img} className="card h-[40vh] p-2 justify-evenly flex space-y-2 flex-col text-left">
           <div className="flex  justify-center items-center">
             <img className="w-[10vw]" src={`${item.img}`} alt="" />
           </div>
