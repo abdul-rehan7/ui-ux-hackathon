@@ -38,8 +38,7 @@ export default function Home() {
       <OurBlogs/>
       {/* ---------- INSTAGRAM SECTION -------------- */}
       <OurInsta/>
-      {/* ---------- Footer SECTION -------------- */}
-      <Footer/>
+   
     </>
   );
 }
