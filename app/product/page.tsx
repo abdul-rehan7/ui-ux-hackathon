@@ -128,8 +128,22 @@ export default function page() {
             <span>Reviews {"[5]"}</span>
           </div>
           <div className="flex flex-col gap-4 text-sm w-[85%] py-4">
-            <p>Embodying the raw, wayward spirit of rock n roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.</p>
-            <p>Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
+            <p>
+              Embodying the raw, wayward spirit of rock n roll, the Kilburn
+              portable active stereo speaker takes the unmistakable look and
+              sound of Marshall, unplugs the chords, and takes the show on the
+              road.
+            </p>
+            <p>
+              Weighing in under 7 pounds, the Kilburn is a lightweight piece of
+              vintage styled engineering. Setting the bar as one of the loudest
+              speakers in its class, the Kilburn is a compact, stout-hearted
+              hero with a well-balanced audio which boasts a clear midrange and
+              extended highs for a sound that is both articulate and pronounced.
+              The analogue knobs allow you to fine tune the controls to your
+              personal preferences while the guitar-influenced leather strap
+              enables easy and stylish travel.
+            </p>
           </div>
           <div className="flex gap-4">
             <div className="bg-[#FFF9E5] py-10 p-4 flex items-center justify-center">
@@ -140,7 +154,48 @@ export default function page() {
             </div>
           </div>
         </div>
-          <hr />
+        <hr />
+
+        <div>
+          <h1 className="text-center pt-[3rem] text-[36px] leading-[54px] ">
+            Related Products
+          </h1>
+
+          <div className="flex gap-4 justify-around py-12">
+            <div className="card justify-between flex flex-col space-y-2 ">
+              <img className="w-[12rem]" src="/cards/1.png" alt="" />
+              <div>
+                <p>Trenton modular sofa_3</p>
+                <p className="font-semibold">Rs. 25,000.00</p>
+              </div>
+            </div>
+            <div className="card justify-between flex flex-col space-y-2 ">
+              <img className="w-[12rem]" src="/cards/2.png" alt="" />
+              <div>
+                <p>Granite dining table with dining chair</p>
+                <p className="font-semibold">Rs. 25,000.00</p>
+              </div>
+            </div>
+            <div className="card justify-between flex flex-col space-y-2 ">
+              <img className="w-[12rem]" src="/cards/3.png" alt="" />
+              <div>
+                <p>Outdoor bar table and stool</p>
+                <p className="font-semibold">Rs. 25,000.00</p>
+              </div>
+            </div>
+            <div className="card justify-between flex flex-col space-y-2 ">
+              <img className="w-[12rem]" src="/cards/4.png" alt="" />
+              <div>
+                <p>Plain console with teak mirror</p>
+                <p className="font-semibold">Rs. 25,000.00</p>
+              </div>
+            </div>
+          </div>
+          <div className="w-full flex justify-center py-4">
+
+            <div className="view-btn text-[24px]">View More</div>
+          </div>
+        </div>
       </div>
     </div>
   );
