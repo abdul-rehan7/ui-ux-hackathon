@@ -1,3 +1,4 @@
+'use client'
 import Link from "next/link";
 import React from "react";
 
@@ -29,6 +30,7 @@ export default function Footer() {
           className="border-b-2 p-2 border-black"
           type="search"
           value="Enter Your Email Address"
+          onChange={() => console.log("Console")}
         />
         <span className="border-b-2 border-black font-semibold p-2">SUBSCRIBE</span>
         </div>

@@ -14,6 +14,11 @@ export const item = {
       type: "number",
     },
     {
+      name: "image",
+      title: "Image",
+      type: "image",
+    },
+    {
       name: "slug",
       title: "Slug",
       type: "slug",

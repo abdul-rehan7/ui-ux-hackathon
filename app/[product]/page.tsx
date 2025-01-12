@@ -1,8 +1,10 @@
 import React from "react";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
+import { client } from "@/sanity/lib/client";
 
-export default function page() {
+export default async function page() {
+
   return (
     <div>
       <div className="top px-[5rem] p-5 w-full">

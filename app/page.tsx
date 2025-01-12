@@ -7,6 +7,7 @@ import OurInsta from "./components/OurInsta";
 
 
 export default function Home() {
+ 
   return (
     <>
       <div className="hero h-auto bg-[var(--primary)]">
